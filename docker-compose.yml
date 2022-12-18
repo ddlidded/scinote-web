@@ -22,7 +22,7 @@ services:
     depends_on:
       - db
     ports:
-      - "3000:3000"
+      - "3010:3010"
     command: >
       bash -c "rm -f /usr/src/app/tmp/pids/server.pid &&
                (bundle check || bundle install) &&
